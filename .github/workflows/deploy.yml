@@ -16,7 +16,7 @@ jobs:
 
       - name: Setup Hugo
         run: |
-          curl -L -o /tmp/hugo.tar.gz 'https://github.com/gohugoio/hugo/releases/download/v0.112.4/hugo_extended_0.110.0_linux-amd64.deb'
+          curl -L -o /tmp/hugo.tar.gz 'https://github.com/gohugoio/hugo/releases/download/v0.112.4/hugo_extended_0.112.4_linux-amd64.deb'
           tar -C ${RUNNER_TEMP} -zxvf /tmp/hugo.tar.gz hugo
 
       - name: Build
@@ -24,7 +24,7 @@ jobs:
 
       - name: Deploy
         run: |
-          git config --global user.name 'dhij'
+          git config --global user.name 'du'
           git config --global user.email 'davidhwang.ij@gmail.com'
           git add -A
           git commit -m 'Updated site'
