@@ -38,8 +38,8 @@ params:
       - JSON # necessary for search
 
   homeInfoParams:
-    Title: 'hello word'
-    Content: '你好，世界'
+    Title: 'Hi'
+    Content: '你好'
 
 
   socialIcons:
