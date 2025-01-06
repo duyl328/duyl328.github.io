@@ -1,4 +1,13 @@
-﻿## 使用环境
+﻿---
+date: '2022-06-27T19:33:58+08:00'
+draft: false
+title: '如何在Vue3的Store中使用i18n'
+keywords: [ 'vue','vue3','i18n' ]
+tags: [ 'vue3','i18n' ]
+categories: [ 'skill' ]
+---
+
+## 使用环境
 
 > `Vue`的版本为：`3.2.36`，
 >
@@ -8,8 +17,7 @@
 
 几乎都最新版本了
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/39a8484eb3d06ca3c791910e2524d01b.png#pic_center =700x500)
-
+![在这里插入图片描述](/blog/2022/06/img-1.png)
 
 ## 问题复现
 
@@ -28,37 +36,37 @@ const { t, d, n, locale } = useI18n()
 
 当在创建对应的i18n时，会先将对应的内容进行创建和导出：
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/41d7a0dd1e001dff0cdc90824cd4a5c4.png#pic_center =800x600)
+![在这里插入图片描述](/blog/2022/06/img-2.png)
 
 
 在这个文件中创建了i18n，并且对特定的配置项进行了指定，但是导出的这个i18n中有什么？
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/df27f14f4ea749627077c95169c280d3.png#pic_center =900x800)
+![在这里插入图片描述](/blog/2022/06/img-3.png)
 
 
 在配置的文件中已经存在了要使用的方法，也就是导出的：`t`,`d`,`n`等，要使用的方法也在这里面
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/0f553c0064f09f20bd80cd22090c691e.png#pic_center =900x700)
+![在这里插入图片描述](/blog/2022/06/img-4.png)
 
 
 在这个`global`中存在了对应的全局的方法，不需要通过i18n指定的方法进行引入执行，可以直接使用，所以这个就是要手动引入的内容
 
 ## 解决
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/c891798bb88738be6f9720255427d656.png#pic_center)
+![在这里插入图片描述](/blog/2022/06/img-5.png)
 
 
 使用这种方法问题得到解决，不过在尝试过程中，这种两种方式使用的i18n也是有区别的
 
 在引入的过程中，因为方式不同，所以引入的方法其实也不是同一个
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/5ff67187219ee8afdbb23ffe27c4b99b.png#pic_center)
+![在这里插入图片描述](/blog/2022/06/img-6.png)
 
 
 
 不过在对应的注释中也能略微看出二者的区别
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/bdbd1233e2788a14e07686524723ed8c.png#pic_center)
+![在这里插入图片描述](/blog/2022/06/img-7.png)
 
 
 使用方法引入的‘t’应当也有特有的内容，这里只进行列举，不继续深入探讨。

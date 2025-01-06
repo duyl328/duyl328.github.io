@@ -1,4 +1,5 @@
 baseURL: "https://duyl328.github.io/duyl328/"
+#baseURL: ""
 languageCode: zh
 title: Demo!
 theme: PaperMod
@@ -39,7 +40,7 @@ params:
 
   homeInfoParams:
     Title: 'Hi'
-    Content: '你好'
+#    Content: '你好'
 
 
   socialIcons:
@@ -72,15 +73,15 @@ menu:
   main:
     - identifier: categories
 #      右上角展示出的名称
-      name: Categories
+      name: 分类
       url: /categories/
 #      权重定义的是菜单的展示顺序
       weight: 10
     - identifier: tags
-      name: Tags
+      name: 标签
       url: /tags/
       weight: 20
     - identifier: archives
-      name: Archives
+      name: 归档
       url: /archives/
       weight: 5

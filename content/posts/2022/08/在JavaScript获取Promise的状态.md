@@ -1,4 +1,13 @@
-﻿# 写在前面
+﻿---
+date: '2022-08-09T10:33:58+08:00'
+draft: false
+title: '在JavaScript获取Promise的状态'
+keywords: [ 'JavaScript','Promise' ]
+tags: [ 'JavaScript' ]
+categories: [ 'skill' ]
+---
+
+# 写在前面
 
   本文属于对`stackoverflow`中写法的解析，原文链接：[**Stack Overflow** ](https://stackoverflow.com/questions/30564053/how-can-i-synchronously-determine-a-javascript-promises-state)
 
@@ -88,6 +97,3 @@
        	})
        }
        ```
-
-
-`本文仅代表鄙人粗鄙的拙见，可能出现疏忽和纰漏，如果您发现了问题还望与我沟通联系，谢谢。`
