@@ -1,6 +1,4 @@
-#baseURL: "https://duyl328.github.io/duyl328/"
-baseURL: "https://adityatelange.github.io/hugo-PaperMod/"
-
+baseURL: "https://duyl328.github.io/duyl328/"
 languageCode: zh
 title: Demo!
 theme: PaperMod
