@@ -1,4 +1,5 @@
 <template>
+  <h1>无内容</h1>
 </template>
 <script setup lang="ts">
 import { useRouter } from 'vitepress'
