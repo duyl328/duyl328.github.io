@@ -12,10 +12,10 @@ export default defineConfig({
   lastUpdated: true,
   cleanUrls: true,
   ignoreDeadLinks: true,
-  sitemap: {
-    hostname: 'https://duyl328.github.io',
-  },
-  base: 'https://duyl328.github.io',
+  // sitemap: {
+  //   hostname: 'https://duyl328.github.io',
+  // },
+  // base: 'https://duyl328.github.io',
   head: [
     // 谷歌分析，暂不使用
     // ['script',
