@@ -3,16 +3,20 @@
 </template>
 <script setup lang="ts">
 import { useRouter } from 'vitepress'
-
-import { createSideBarZH } from '../utils/createSideBar'
+import autoSidebar from '../../autoSidebar'
 
 const router = useRouter()
-
-const sideBar = createSideBarZH()
-
+console.log("111111111111111");
 const prefix = '/notes/'
-const firstItemLink = sideBar[prefix][0].items[0].link
+    // /notes/Python基础/01python数据模型
+let sideBarElement = autoSidebar[prefix]
+let sideBarElementElement = sideBarElement[0]
+console.log(sideBarElementElement);
+const firstItemLink = sideBarElementElement.items[0].link
 
-router.go(firstItemLink)
+
+const s = firstItemLink.replace(/\.[^/.]+$/, '');
+
+router.go(s)
 </script>
 <style scoped></style>

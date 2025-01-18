@@ -1,6 +1,6 @@
 import { type DefaultTheme, defineConfig } from 'vitepress'
 
-import { createSideBarZH } from '../theme/utils/createSideBar'
+import autoSidebar from '../autoSidebar'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -28,7 +28,7 @@ export default defineConfig({
       text: '最近更新时间',
     },
     
-    sidebar: createSideBarZH(),
+    sidebar: autoSidebar,
     
     socialLinks: [
       { icon: 'github', link: 'https://github.com/duyl328' },
