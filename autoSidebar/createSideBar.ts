@@ -39,8 +39,12 @@ function getFilesRecursively (dirPath: string) {
   }
   
   // 获取当前目录下的所有文件和文件夹
+  const items1 = fs.readdirSync("/home/runner/work/duyl328.github.io")
+  const items2 = fs.readdirSync("/home/runner/work/duyl328.github.io/duyl328.github.io")
+  console.log(items1,'----1-----------------');
+  console.log(items2,'------2-------------------');
   const items = fs.readdirSync(dirPath)
-  console.log(items,'-------------------------');
+  console.log(items,'--------3-----------------');
   items.forEach(item => {
     const fullPath = path.join(dirPath, item)
     const stats = fs.statSync(fullPath)
