@@ -6,12 +6,10 @@ import { useRouter } from 'vitepress'
 import autoSidebar from '../../autoSidebar'
 
 const router = useRouter()
-console.log("111111111111111");
 const prefix = '/notes/'
     // /notes/Python基础/01python数据模型
 let sideBarElement = autoSidebar[prefix]
 let sideBarElementElement = sideBarElement[0]
-console.log(sideBarElementElement);
 const firstItemLink = sideBarElementElement.items[0].link
 
 
