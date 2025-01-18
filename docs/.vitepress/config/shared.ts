@@ -69,7 +69,7 @@ export default defineConfig({
   vite: {
     plugins: [
       // 自动更新列表
-      sidebar("docs\\.vitepress","\\docs\\notes"),
+      sidebar("docs/.vitepress","/docs/notes"),
       AutoImport({
         resolvers: [
           TDesignResolver({
