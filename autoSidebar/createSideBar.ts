@@ -11,9 +11,9 @@ export function createSideBar (docsDir: string) {
   console.log('createSideBarZH ======================= ')
   // console.log(createSideBarEN1())
   let dDir = FileUtils.getRoleFolderName(docsDir, -1)
-  console.log('++++++++++++++++++++++++++++++++++++++++++++++++++++++')
+  console.log(dDir, '++++++++++++++++++++++++++++++++++++++++++++++++++++++')
   let filesRecursively = getFilesRecursively(docsDir)
-  console.log('=========================================================')
+  console.log("===========================================================");
   let message = divideSidebar(filesRecursively.contents, dDir)
   message.forEach(message => {
     // console.log(message)
@@ -40,7 +40,7 @@ function getFilesRecursively (dirPath: string) {
   
   // 获取当前目录下的所有文件和文件夹
   const items = fs.readdirSync(dirPath)
-  
+  console.log(items,'-------------------------');
   items.forEach(item => {
     const fullPath = path.join(dirPath, item)
     const stats = fs.statSync(fullPath)
