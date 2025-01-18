@@ -58,8 +58,10 @@ export class FileUtils {
    * @param n
    */
   static getRoleFolderName (url: string,n:number): string {
+    console.log(url);
     url = url.replace(/\\/g, '/')
     const segments = url.split('/')
+    console.log(segments);
     if (n > 0) {
       return segments.slice(0, n).join('/');
     } else if (n < 0) {
