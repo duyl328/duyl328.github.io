@@ -7,12 +7,13 @@ type SidebarItem = DefaultTheme.SidebarItem
 
 // type Sidebar = DefaultTheme.Sidebar
 
-export function createSideBar (docsDir:string) {
+export function createSideBar (docsDir: string) {
   console.log('createSideBarZH ======================= ')
   // console.log(createSideBarEN1())
-  let dDir = FileUtils.getRoleFolderName(docsDir,-1)
+  let dDir = FileUtils.getRoleFolderName(docsDir, -1)
+  console.log('++++++++++++++++++++++++++++++++++++++++++++++++++++++')
   let filesRecursively = getFilesRecursively(docsDir)
-  
+  console.log('=========================================================')
   let message = divideSidebar(filesRecursively.contents, dDir)
   message.forEach(message => {
     // console.log(message)
@@ -29,6 +30,7 @@ export function createSideBar (docsDir:string) {
  * 要获取的文件夹目录
  */
 function getFilesRecursively (dirPath: string) {
+  console.log(dirPath, '+++++++++++++++++++')
   const result: FileOrDir = {
     type: 'directory',
     path: dirPath,
@@ -104,7 +106,7 @@ function divideSidebar (
       
       let lastFolderName = FileUtils.getLastFolderName(file.parentFolder)
       let relativePath = FileUtils.getRelativePath(file.path, rootDir)
-      console.log(relativePath,'=============')
+      console.log(relativePath, '=============')
       let obj: SidebarItem = {
         text: fileName,
         link: relativePath,
