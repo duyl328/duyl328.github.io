@@ -26,9 +26,11 @@ export default function autoGenerateSidebar (
   
   // 完整路径
   const docP = path.join(roleFolderName, docPath)
-  console.log(docP);
+  console.log(docP,'=====docP=====');
   let sidebarP = path.join(roleFolderName, genPath)
-  console.log(sidebarP);
+  console.log(sidebarP,'++++sidebarP++++');
+  // /home/runner/work/duyl328.github.io/duyl328.github.io/docs/notes
+  // /home/runner/work/duyl328.github.io/duyl328.github.io/docs/.vitepress
   
   return {
     name: 'autoSidebar',
