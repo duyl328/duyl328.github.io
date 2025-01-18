@@ -16,10 +16,8 @@ export class FileUtils {
    */
   static getFileName (url: string) {
     console.log(url,"文件名称");
-    const parsedUrl = new URL(url)
-    let pathname = parsedUrl.pathname
-    pathname = pathname.replace(/\\/g, '/')
-    const segments = pathname.split('/')
+    url = url.replace(/\\/g, '/')
+    const segments = url.split('/')
     return segments[segments.length - 1]
   }
   
@@ -29,11 +27,9 @@ export class FileUtils {
    */
   static getLastFolderName (url: string): string {
     console.log(url,"文件夹名称");
-    const parsedUrl = new URL(url)
-    let pathname = parsedUrl.pathname
     // 统一路径分隔符为 '/'
-    pathname = pathname.replace(/\\/g, '/')
-    const segments = pathname.split('/')
+    url = url.replace(/\\/g, '/')
+    const segments = url.split('/')
     
     if (segments[segments.length - 1].includes('.')) {
       return segments[segments.length - 2]
@@ -70,4 +66,8 @@ export class FileUtils {
     }
   }
 }
-
+//
+// // /home/runner/work/duyl328.github.io/duyl328.github.io/docs/notes/index.md
+// let fileName = FileUtils.getFileName("/home/runner/work/duyl328.github.io/duyl328.github.io/docs/notes/index.md")
+// // let fileName = FileUtils.getFileName("D:/duyl328/github.io/autoSidebar/utils/fileUtils.ts")
+// console.log(fileName);
