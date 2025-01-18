@@ -15,6 +15,7 @@ export class FileUtils {
    * @param url
    */
   static getFileName (url: string) {
+    console.log(url,"文件名称");
     const parsedUrl = new URL(url)
     let pathname = parsedUrl.pathname
     pathname = pathname.replace(/\\/g, '/')
@@ -27,6 +28,7 @@ export class FileUtils {
    * @param url
    */
   static getLastFolderName (url: string): string {
+    console.log(url,"文件夹名称");
     const parsedUrl = new URL(url)
     let pathname = parsedUrl.pathname
     // 统一路径分隔符为 '/'

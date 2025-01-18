@@ -11,10 +11,9 @@ export function createSideBar (docsDir: string) {
   console.log('createSideBarZH ======================= ')
   // console.log(createSideBarEN1())
   let dDir = FileUtils.getRoleFolderName(docsDir, -1)
-  console.log(dDir, '++++++++++++++++++++++++++++++++++++++++++++++++++++++')
   let filesRecursively = getFilesRecursively(docsDir)
-  console.log("===========================================================");
   let message = divideSidebar(filesRecursively.contents, dDir)
+  
   message.forEach(message => {
     // console.log(message)
   })
@@ -30,7 +29,6 @@ export function createSideBar (docsDir: string) {
  * 要获取的文件夹目录
  */
 function getFilesRecursively (dirPath: string) {
-  console.log(dirPath, '+++++++++++++++++++')
   const result: FileOrDir = {
     type: 'directory',
     path: dirPath,
@@ -39,16 +37,7 @@ function getFilesRecursively (dirPath: string) {
   }
   
   // 获取当前目录下的所有文件和文件夹
-  const items1 = fs.readdirSync("/home/runner/work/duyl328.github.io")
-  const items2 = fs.readdirSync("/home/runner/work/duyl328.github.io/duyl328.github.io")
-  const items3 = fs.readdirSync("/home/runner/work/duyl328.github.io/duyl328.github.io/docs")
-  const items4 = fs.readdirSync("/home/runner/work/duyl328.github.io/duyl328.github.io/docs/notes")
-  console.log(items1,'----1-----------------');
-  console.log(items2,'------2-------------------');
-  console.log(items3,'---3---2-------------------');
-  console.log(items4,'----4--2-------------------');
   const items = fs.readdirSync(dirPath)
-  console.log(items,'--------3-----------------');
   items.forEach(item => {
     const fullPath = path.join(dirPath, item)
     const stats = fs.statSync(fullPath)
