@@ -103,7 +103,6 @@ function divideSidebar (
       
       let lastFolderName = FileUtils.getLastFolderName(file.parentFolder)
       let relativePath = FileUtils.getRelativePath(file.path, rootDir)
-      console.log(relativePath, '=============')
       let obj: SidebarItem = {
         text: fileName,
         link: relativePath,

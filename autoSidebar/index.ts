@@ -26,7 +26,9 @@ export default function autoGenerateSidebar (
   
   // 完整路径
   const docP = path.join(roleFolderName, docPath)
+  console.log(docP);
   let sidebarP = path.join(roleFolderName, genPath)
+  console.log(sidebarP);
   
   return {
     name: 'autoSidebar',
