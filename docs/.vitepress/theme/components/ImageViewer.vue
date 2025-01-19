@@ -74,9 +74,12 @@ function previewImage (e: Event) {
 onMounted(() => {
   console.log("onMounted");
   if (typeof document !== 'undefined') {
+    console.log("typeof document !== 'undefined'");
     // 使用document的代码
     const docDomContainer = document.querySelector('#VPContent')
+    console.log("docDomContainer");
     docDomContainer?.addEventListener('click', previewImage)
+    console.log("docDomContainer?.addEventListener");
   }
 })
 
