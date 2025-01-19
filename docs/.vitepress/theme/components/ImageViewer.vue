@@ -52,16 +52,16 @@ function previewImage (e: Event) {
     const imgs = currentTarget.querySelectorAll<HTMLImageElement>(
         '.content-container .main img',
     )
-    console.log("333");
     const idx = Array.from(imgs).findIndex((el) => el === target)
+    console.log(idx,"333");
     const urls = Array.from(imgs).map((el) => el.src)
 
-    console.log("8888");
+    console.log(urls,"8888");
     const url = target.getAttribute('src')
     previewImageInfo.url = url!
     previewImageInfo.list = urls
     previewImageInfo.idx = idx
-    console.log("666");
+    console.log(url,"666");
 
     // 兼容点击 main 之外的图片
     if (idx === -1 && url) {
