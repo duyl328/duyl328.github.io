@@ -1,6 +1,4 @@
-<template>
-  <h1>无内容</h1>
-</template>
+<template></template>
 <script setup lang="ts">
 import { useRouter } from 'vitepress'
 import autoSidebar from '../../autoSidebar'

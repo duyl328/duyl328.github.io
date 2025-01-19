@@ -97,12 +97,12 @@ function divideSidebar (
     let file = files[i]
     // 如果有子项目，则该级别无链接
     if (file.type === 'file') {
-      let fileName = FileUtils.getFileName(file.path)
+      let fileName = FileUtils.removeExtension(FileUtils.getFileName(file.path))
       // 是否为 index 文件【index 跳过】
       if (fileName.includes('index')) continue
       
       let lastFolderName = FileUtils.getLastFolderName(file.parentFolder)
-      let relativePath = FileUtils.getRelativePath(file.path, rootDir)
+      let relativePath = FileUtils.removeExtension(FileUtils.getRelativePath(file.path, rootDir))
       let obj: SidebarItem = {
         text: fileName,
         link: relativePath,

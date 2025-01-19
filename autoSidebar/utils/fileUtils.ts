@@ -65,6 +65,15 @@ export class FileUtils {
       return '';
     }
   }
+  
+  /**
+   * 去除后缀名
+   * @param filename
+   */
+  static removeExtension(filename:string) {
+    return filename.slice(0, filename.lastIndexOf('.')) || filename;
+  }
+  
 }
 //
 // // /home/runner/work/duyl328.github.io/duyl328.github.io/docs/notes/index.md
