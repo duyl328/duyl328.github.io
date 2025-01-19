@@ -16,7 +16,6 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted, reactive, ref, watch } from 'vue'
 import { useRoute } from 'vitepress'
-// import enConfig from 'tdesign-vue-next/es/locale/en_US'
 import zhConfig from 'tdesign-vue-next/es/locale/zh_CN'
 
 import TDesignDark from './TDesignDark.vue'
@@ -57,17 +56,22 @@ function previewImage (e: Event) {
     const idx = Array.from(imgs).findIndex((el) => el === target)
     const urls = Array.from(imgs).map((el) => el.src)
 
+    console.log("8888");
     const url = target.getAttribute('src')
     previewImageInfo.url = url!
     previewImageInfo.list = urls
     previewImageInfo.idx = idx
+    console.log("666");
 
     // 兼容点击 main 之外的图片
     if (idx === -1 && url) {
+      console.log("777");
       previewImageInfo.list.push(url)
       previewImageInfo.idx = previewImageInfo.list.length - 1
     }
+    console.log("555");
     show.value = true
+    console.log("444");
   }
 }
 
@@ -91,6 +95,7 @@ onUnmounted(() => {
     docDomContainer?.removeEventListener('click', previewImage)
   }
 })
+console.log("0000000000");
 </script>
 <style>
 /* 不提供下载功能，隐藏下载按钮，tdesign 下载有问题 */
