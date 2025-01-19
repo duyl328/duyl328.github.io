@@ -35,7 +35,7 @@ export default defineConfig({
     ],
     
     editLink: {
-      pattern: 'https://duyl328.github.io/edit/master/docs/:path',
+      pattern: 'https://github.com/duyl328/duyl328.github.io/edit/main/docs/:path',
       text: '在 GitHub 上编辑此页',
     },
     returnToTopLabel: '回到顶部',
