@@ -26,6 +26,7 @@ const globalConfig = ref<typeof zhConfig >(zhConfig)
 watch(
     () => route.path,
     () => {
+      console.log("监视属性");
       globalConfig.value = zhConfig
     },
     {
@@ -44,6 +45,7 @@ const previewImageInfo = reactive<{ url: string; list: string[]; idx: number }>(
 )
 
 function previewImage (e: Event) {
+  show.value = true
   console.log("11111");
   const target = e.target as HTMLElement
   const currentTarget = e.currentTarget as HTMLElement
