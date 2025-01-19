@@ -3,13 +3,11 @@
 	font-family: "FiraCode";
 	src: url("/assets/fonts/FiraCode-VF.woff2");
 }
-
 /** 正文字体 */
 @font-face {
 	font-family: "SourceHanSerifCN";
 	src: local("SourceHanSerifCN"), url("/assets/fonts/SourceHanSerifCN-VF.woff2");
 }
-
 /** logo 字体 */
 @font-face {
 	font-family: "Niconne";
@@ -31,7 +29,7 @@
 	--vp-c-blue-2: #0749ff;
 	--vp-c-blue-3: #7494ec;
 	--vp-c-blue-soft: rgba(110, 156, 190, 0.14);
-	
+
 	--vp-c-yellow-1: #aa9100;
 	--vp-c-yellow-2: #d5b811;
 	--vp-c-yellow-3: #ecce23;
@@ -73,9 +71,9 @@
 	--td-brand-color-active: var(--vp-c-brand-2) !important;
 	/* 字体 family token */
 	--td-font-family: SourceHanSerifCN, PingFang SC, Microsoft YaHei,
-	Arial Regular;
+		Arial Regular;
 	--td-font-family-medium: SourceHanSerifCN, PingFang SC, Microsoft YaHei,
-	Arial Medium;
+		Arial Medium;
 }
 
 /**
@@ -142,13 +140,12 @@ main > div > div > pre > code {
 .VPNavBar {
 	background-color: transparent !important;
 }
-
 .VPNav .content .content-body {
 	backdrop-filter: blur(36px);
 	background-color: linear-gradient(
-			to bottom,
-			rgba(var(--vp-nav-bg-color), 0.98),
-			rgba(var(--vp-nav-bg-color), 0.6)
+		to bottom,
+		rgba(var(--vp-nav-bg-color), 0.98),
+		rgba(var(--vp-nav-bg-color), 0.6)
 	) !important;
 }
 
@@ -156,9 +153,9 @@ main > div > div > pre > code {
 .VPLocalNav .container {
 	backdrop-filter: blur(36px);
 	background-color: linear-gradient(
-			to bottom,
-			rgba(var(--vp-nav-bg-color), 0.6),
-			rgba(var(--vp-nav-bg-color), 0.4)
+		to bottom,
+		rgba(var(--vp-nav-bg-color), 0.6),
+		rgba(var(--vp-nav-bg-color), 0.4)
 	) !important;
 }
 

@@ -10,14 +10,14 @@ import ImageViewer from './components/ImageViewer.vue'
 import GoBack from './components/GoBack.vue'
 
 export default {
-  ...Theme,
-  Layout: () => {
-    return h(Theme.Layout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
-      'doc-after': () => h(Comment),
-      'doc-bottom': () => h(ImageViewer),
-      'aside-top': () => h(GoBack),
-    })
-  },
+	...Theme,
+	Layout: () => {
+		return h(Theme.Layout, null, {
+			// https://vitepress.dev/guide/extending-default-theme#layout-slots
+			'doc-after': () => h(Comment),
+			'doc-bottom': () => h(ImageViewer),
+			'aside-top': () => h(GoBack),
+		})
+	},
 }
 

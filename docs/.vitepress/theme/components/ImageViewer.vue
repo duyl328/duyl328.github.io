@@ -26,7 +26,6 @@ const globalConfig = ref<typeof zhConfig >(zhConfig)
 watch(
     () => route.path,
     () => {
-      console.log("监视属性");
       globalConfig.value = zhConfig
     },
     {
@@ -45,59 +44,45 @@ const previewImageInfo = reactive<{ url: string; list: string[]; idx: number }>(
 )
 
 function previewImage (e: Event) {
-  show.value = true
-  console.log("11111");
   const target = e.target as HTMLElement
   const currentTarget = e.currentTarget as HTMLElement
-  console.log("2222");
   if (target.tagName.toLowerCase() === 'img') {
     const imgs = currentTarget.querySelectorAll<HTMLImageElement>(
         '.content-container .main img',
     )
     const idx = Array.from(imgs).findIndex((el) => el === target)
-    console.log(idx,"333");
     const urls = Array.from(imgs).map((el) => el.src)
 
-    console.log(urls,"8888");
     const url = target.getAttribute('src')
     previewImageInfo.url = url!
     previewImageInfo.list = urls
     previewImageInfo.idx = idx
-    console.log(url,"666");
 
     // 兼容点击 main 之外的图片
     if (idx === -1 && url) {
-      console.log("777");
       previewImageInfo.list.push(url)
       previewImageInfo.idx = previewImageInfo.list.length - 1
     }
-    console.log("555");
     show.value = true
-    console.log("444");
   }
 }
 
 onMounted(() => {
-  console.log("onMounted");
   if (typeof document !== 'undefined') {
-    console.log("typeof document !== 'undefined'");
     // 使用document的代码
     const docDomContainer = document.querySelector('#VPContent')
-    console.log("docDomContainer");
     docDomContainer?.addEventListener('click', previewImage)
-    console.log("docDomContainer?.addEventListener");
   }
 })
 
 onUnmounted(() => {
-  console.log("onUnmounted");
   if (typeof document !== 'undefined') {
     // 使用document的代码
     const docDomContainer = document.querySelector('#VPContent')
     docDomContainer?.removeEventListener('click', previewImage)
   }
 })
-console.log("0000000000");
+
 </script>
 <style>
 /* 不提供下载功能，隐藏下载按钮，tdesign 下载有问题 */
