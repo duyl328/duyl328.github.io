@@ -45,12 +45,15 @@ const previewImageInfo = reactive<{ url: string; list: string[]; idx: number }>(
 )
 
 function previewImage (e: Event) {
+  console.log("11111");
   const target = e.target as HTMLElement
   const currentTarget = e.currentTarget as HTMLElement
+  console.log("2222");
   if (target.tagName.toLowerCase() === 'img') {
     const imgs = currentTarget.querySelectorAll<HTMLImageElement>(
         '.content-container .main img',
     )
+    console.log("333");
     const idx = Array.from(imgs).findIndex((el) => el === target)
     const urls = Array.from(imgs).map((el) => el.src)
 
@@ -69,6 +72,7 @@ function previewImage (e: Event) {
 }
 
 onMounted(() => {
+  console.log("onMounted");
   if (typeof document !== 'undefined') {
     // 使用document的代码
     const docDomContainer = document.querySelector('#VPContent')
@@ -77,6 +81,7 @@ onMounted(() => {
 })
 
 onUnmounted(() => {
+  console.log("onUnmounted");
   if (typeof document !== 'undefined') {
     // 使用document的代码
     const docDomContainer = document.querySelector('#VPContent')
