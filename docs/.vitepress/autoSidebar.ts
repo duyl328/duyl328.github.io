@@ -69,6 +69,42 @@ export default {
         {
           "text": "09增",
           "link": "notes/MySql/09增"
+        },
+        {
+          "text": "10删",
+          "link": "notes/MySql/10删"
+        },
+        {
+          "text": "11改",
+          "link": "notes/MySql/11改"
+        },
+        {
+          "text": "11约束",
+          "link": "notes/MySql/11约束"
+        },
+        {
+          "text": "12存储引擎",
+          "link": "notes/MySql/12存储引擎"
+        },
+        {
+          "text": "13事务",
+          "link": "notes/MySql/13事务"
+        },
+        {
+          "text": "14索引",
+          "link": "notes/MySql/14索引"
+        },
+        {
+          "text": "15.视图",
+          "link": "notes/MySql/15.视图"
+        },
+        {
+          "text": "16三范式",
+          "link": "notes/MySql/16三范式"
+        },
+        {
+          "text": "17练习",
+          "link": "notes/MySql/17练习"
         }
       ]
     }
