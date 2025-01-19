@@ -61,6 +61,14 @@ export default {
         {
           "text": "07函数",
           "link": "notes/MySql/07函数"
+        },
+        {
+          "text": "08连接查询",
+          "link": "notes/MySql/08连接查询"
+        },
+        {
+          "text": "09增",
+          "link": "notes/MySql/09增"
         }
       ]
     }
