@@ -1,3 +1,11 @@
+---
+date: 2025-01-19
+tags:
+  - JDBC
+  - Notes
+lastUpdated: 2025-01-20T10:10:00
+---
+
 JDBC接口（API）包括两个层次：
 
 面向应用的API：Java API，抽象接口，供应用程序开发人员使用（连接数据库，执行SQL语句，获得结果）。

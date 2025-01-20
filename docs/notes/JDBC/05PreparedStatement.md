@@ -1,3 +1,10 @@
+---
+date: 2025-01-19
+tags:
+  - JDBC
+  - Notes
+lastUpdated: 2025-01-20T10:10:00
+---
 ## PreparedStatement的使用
 
 - 可以通过调用 Connection 对象的 preparedStatement(String sql) 方法获取 PreparedStatement 对象

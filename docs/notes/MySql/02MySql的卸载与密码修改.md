@@ -1,3 +1,11 @@
+---
+date: 2025-01-19
+tags:
+  - Notes
+  - MySql
+lastUpdated: 2025-01-20T10:10:00
+---
+
 ## 卸载MySQL
 
 1. 双击安装包，点击下一步，然后点击remove。卸载。
