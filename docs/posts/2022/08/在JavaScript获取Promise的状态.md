@@ -1,17 +1,17 @@
-﻿---
+---
 layout: doc
 title: 在JavaScript获取Promise的状态
 date: 2022-08-09
 tags:
   - 编程
   - 学习
+  - JavaScript
 head:
   - - meta
     - name: keywords
       content: js javascript
 editLink: false
-lastUpdated: true
-
+lastUpdated: 2025-01-20T10:08:00
 ---
 
 

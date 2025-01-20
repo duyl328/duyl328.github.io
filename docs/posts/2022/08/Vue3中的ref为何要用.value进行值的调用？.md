@@ -1,10 +1,11 @@
-﻿---
+---
 layout: doc
 title: Vue3中的ref为何要用.value进行值的调用？
 date: 2022-08-25
 tags:
   - 编程
   - 学习
+  - vue
 head:
   - - meta
     - name: description
@@ -13,8 +14,7 @@ head:
     - name: keywords
       content: vue vue3 js javascript
 editLink: false
-lastUpdated: true
-
+lastUpdated: 2025-01-20T10:09:00
 ---
 
 > 文章摘要

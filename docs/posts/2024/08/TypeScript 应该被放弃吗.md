@@ -4,15 +4,14 @@ title: TypeScript 应该被放弃吗
 date: 2024-08-04
 tags:
   - 编程
-  - 学习
   - 思考
+  - TypeScript
 head:
   - - meta
     - name: keywords
       content: vue vue3 js javascript react ts typescript
 editLink: false
-lastUpdated: true
-
+lastUpdated: 2025-01-20T10:09:34
 ---
 
 > 文章摘要
@@ -38,10 +37,10 @@ TypeScript 的额外成本：第二篇文章提到，在某些场景下，TypeSc
 抛出这个问题主要基于22年和23年发生的一些事件：
 
 
-![image-20240627143223214](/posts/2024/08/10003/up-58c4155f83bbd826f4bb0ec1ab8d1e32ccd-1719469395020-15-1719469397190-17.png)
+![image-20240627143223214](../../../public/posts/2024/08/10003/up-58c4155f83bbd826f4bb0ec1ab8d1e32ccd-1719469395020-15-1719469397190-17.png)
 
 
-![image-20240627143223214](/posts/2024/08/10003/eed5a2dd0f71b8b4790a1b20c708416c-1719469475131-21.png)
+![image-20240627143223214](../../../public/posts/2024/08/10003/eed5a2dd0f71b8b4790a1b20c708416c-1719469475131-21.png)
 
 并且Svelte 不是第一个放弃 TypeScript 的前端框架。早在 2020 年，Deno 就迁移了一部分內部 TypeScript 代码到 JavaScript，以减少构建时间。
 
@@ -67,13 +66,13 @@ TypeScript 的额外成本：第二篇文章提到，在某些场景下，TypeSc
 
 并且对于这篇文章，Reddit的评论区也是活力十足
 
-![image-20240627144850640](/posts/2024/08/10003/image-20240627144850640.png)
+![image-20240627144850640](../../../public/posts/2024/08/10003/image-20240627144850640.png)
 
 
 
 并且在知乎对于这个问题的评价更加激进：
 
-![image-20240627143223214](/posts/2024/08/10003/image-20240627143223214.png)
+![image-20240627143223214](../../../public/posts/2024/08/10003/image-20240627143223214.png)
 
 以下是文字版本：
 

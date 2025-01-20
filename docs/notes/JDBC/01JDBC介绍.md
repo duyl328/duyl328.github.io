@@ -16,4 +16,3 @@ JDBC的目标是使Java程序员使用JDBC可以连接任何提供了JDBC驱动�
 总结如下：
 
 ![综述](../../public/note/JDBC/JDBC%E4%BB%8B%E7%BB%8D/img-3.png)
-
