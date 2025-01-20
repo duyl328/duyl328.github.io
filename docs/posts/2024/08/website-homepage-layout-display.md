@@ -1,9 +1,10 @@
 ---
 layout: doc
 title: 主流网站主页布局展示内容及渲染方式调研
-date: 2024-08-03
+date: 2023-08-03
 tags:
   - 设计
+  - Blog
 head:
   - - meta
     - name: keywords
@@ -11,7 +12,7 @@ head:
 editLink: false
 lastUpdated: 2025-01-20T10:09:34
 ---
-
+# {{ $frontmatter.title }}
 
 对于大部分信息展示网站中都是通过大块的区域内容展示来展现更多信息，并且国内的对应的网站相对较老，所以UI设计以及UI风格上更加的质朴
 

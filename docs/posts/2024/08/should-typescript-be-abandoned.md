@@ -6,7 +6,11 @@ tags:
   - 编程
   - 思考
   - TypeScript
+  - Blog
 head:
+  - - meta
+    - name: description
+      content: Turbo 8 放弃 TypeScript：作者认为 TypeScript 的类型检查反而增加了开发中的负担，并且声明类型复杂化代码，减少了开发效率。这个观点在 Reddit 和知乎引发了激烈讨论，部分评论指出 Turbo 8 并不具备广泛影响力，且作者习惯发表反向意见。TypeScript 的额外成本：第二篇文章提到，在某些场景下，TypeScript 的类型体操带来不必要的复杂度，尤其是对于小型项目，编写精确的类型定义可能比核心逻辑代码更为冗长。然而，TypeScript 相比于 JavaScript 在维护性和可扩展性上具有优势，尤其是对于框架和类库的开发者而言，尽管带来一些额外的维护成本。总体来看，放弃 TypeScript 的选择多见于小型或开源项目的维护者，而对于大多数开发者来说，TypeScript 提供的类型系统和可维护性仍然是更受欢迎的选择。
   - - meta
     - name: keywords
       content: vue vue3 js javascript react ts typescript
@@ -14,7 +18,9 @@ editLink: false
 lastUpdated: 2025-01-20T10:09:34
 ---
 
-> 文章摘要
+# {{ $frontmatter.title }}
+
+>  :black_nib: 文章摘要
 
 <!-- DESC SEP -->
 

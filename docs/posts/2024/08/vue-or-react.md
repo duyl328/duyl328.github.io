@@ -7,18 +7,21 @@ tags:
   - 思考
   - vue
   - React
+  - Blog
 head:
   - - meta
     - name: description
-      content: Vue和React、Nextjs如何选择
+      content: 这篇文章探讨了 Vue、React 和 Next.js 之间的选择，并深入分析了 React 的一些优缺点。作者指出，虽然 Vue 在国内市场占据主导地位，React 在国外仍然保持强大的活力。但与此同时，React 面临不少批评，特别是其逐渐显现的技术债务和性能问题。文章引用了一些反对 React 的观点，强调 React 已显老化，且与其他框架相比，存在着难以兼容和过度依赖自定义模块的问题。同时，文章还提到其他框架如 Svelte 的优越性，认为它能提供类似 React 的功能，但更加简洁和高效。
   - - meta
     - name: keywords
       content: vue vue3 js javascript react ts typescript
 editLink: false
 lastUpdated: 2025-01-20T10:09:34
 ---
+# {{ $frontmatter.title }}
 
-> 文章摘要
+
+>  :black_nib: 文章摘要
 
 <!-- DESC SEP -->
 

@@ -1,11 +1,12 @@
 ---
 layout: doc
 title: Vue3新属性 — css中使用v-bind（v-bind in css）
-date: 2022-08-11
+date: 2024-08-11
 tags:
   - 编程
   - 学习
   - vue
+  - Blog
 head:
   - - meta
     - name: description
@@ -16,8 +17,9 @@ head:
 editLink: false
 lastUpdated: 2025-01-20T10:09:00
 ---
+# {{ $frontmatter.title }}
 
-> 文章摘要
+>  :black_nib: 文章摘要
 
 <!-- DESC SEP -->
 
@@ -37,11 +39,11 @@ LESS：与 CSS 类似，使用变量和 v-bind() 绑定数据，但在 LESS 中�
 
 # Vue3新属性：CSS 中的 `v-bind()`
 
-## 写在前面：
+## 写在前面 {#write-in-front}
 
 本文主要介绍Vue3中的新增的`v-bind()`的常用使用方式，主要包括在`css`,`less`,`scss`中的使用，可以参考官方文档查看：[Vue3官方文档](https://cn.vuejs.org/api/sfc-css-features.html#v-bind-in-css)，本文将主要通过一个demo中的使用来展示
 
-## 实际使用：
+## 实际使用{#actual-use}
 
 先创建一个通过的页面结构，因为是结构是通用内容，所以这里在直接进行简单的定义
 

@@ -6,6 +6,7 @@ tags:
   - 编程
   - 学习
   - vue
+  - Blog
 head:
   - - meta
     - name: description
@@ -16,8 +17,9 @@ head:
 editLink: false
 lastUpdated: 2025-01-20T10:09:00
 ---
+# {{ $frontmatter.title }}
 
-> 文章摘要
+>  :black_nib: 文章摘要
 <!-- DESC SEP -->
 
 这篇文章对比了 Vue2 和 Vue3 中的数据响应式处理方式，特别是如何定义和代理数据。在 Vue2 中，所有数据都通过一个统一的 data 对象进行管理，使用 Object.defineProperty 来实现响应式绑定。而在 Vue3 中，数据定义变得更加灵活，允许直接使用单一的数据类型，通过 ref 和 reactive 来创建响应式数据。虽然 ref 看似代理了普通数据，但实际上 Vue3 使用了 Proxy 技术对数据进行处理，这使得响应式机制变得更加高效和灵活。

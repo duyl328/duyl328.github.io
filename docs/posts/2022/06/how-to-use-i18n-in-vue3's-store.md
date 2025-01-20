@@ -10,6 +10,7 @@ tags:
   - JavaScript
   - i18n
   - BUG
+  - Blog
 head:
   - - meta
     - name: description
@@ -21,7 +22,9 @@ editLink: false
 lastUpdated: 2025-01-20T10:08:00
 ---
 
-> 文章摘要
+# {{ $frontmatter.title }}
+
+>  :black_nib: 文章摘要
 <!-- DESC SEP -->
 
 这篇文章讨论了在 Vue3 环境下使用 vue-i18n 和 element-plus 处理多语言提示时遇到的问题及解决方案。具体来说，文章描述了在使用

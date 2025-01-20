@@ -8,6 +8,7 @@ tags:
   - Html
   - JavaScript
   - vue
+  - Blog
 head:
   - - meta
     - name: description
@@ -19,7 +20,9 @@ editLink: false
 lastUpdated: 2025-01-20T10:09:00
 ---
 
-> 文章摘要
+# {{ $frontmatter.title }}
+
+>  :black_nib: 文章摘要
 <!-- DESC SEP -->
 这篇文章介绍了如何在 JS 或 Vue 中实现表格的列和表头固定功能，适用于不同的开发环境（如原生
 JavaScript、Vue、React、小程序等）。文章详细展示了实现这一功能的思路和具体步骤，包括使用 Vue3 和 TypeScript 结合 Less
