@@ -13,9 +13,9 @@ export default defineConfig({
   lastUpdated: true,
   cleanUrls: true,
   ignoreDeadLinks: true,
-  // sitemap: {
-  //   hostname: 'https://duyl328.github.io',
-  // },
+  sitemap: {
+    hostname: 'https://duyl328.github.io',
+  },
   // base: 'https://duyl328.github.io',
   base: process.env.BASE || '/',
   head: [
