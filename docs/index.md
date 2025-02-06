@@ -10,6 +10,9 @@ head:
     - name: google-site-verification
       content: 3mPuiYC0wAVCBtDCme-qNp7JrpYrua8fPLZyFgVZA98
   - - meta
+    - name: msvalidate.01
+      content: 74145A0C19682BC79C3B9FC837149152
+  - - meta
     - name: keywords
       content: vitepress, 文档, 网站
   - - meta
