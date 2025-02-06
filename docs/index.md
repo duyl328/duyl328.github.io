@@ -6,9 +6,18 @@ lastUpdated: false
 isNoComment: true
 isNoBackBtn: true
 head:
-  - - meta:
+  - - meta
     - name: google-site-verification
       content: 3mPuiYC0wAVCBtDCme-qNp7JrpYrua8fPLZyFgVZA98
+  - - meta
+    - name: keywords
+      content: vitepress, 文档, 网站
+  - - meta
+    - property: og:title
+      content: 我的主页
+  - - meta
+    - property: og:description
+      content: 这是一个 VitePress 站点
 ---
 
 <!-- 之所以将代码写在 md 里面，而非单独封装为 Vue 组件，因为 aside 不会动态刷新，参考 https://github.com/vuejs/vitepress/issues/2686 -->
