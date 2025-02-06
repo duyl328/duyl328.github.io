@@ -5,6 +5,10 @@ editLink: false
 lastUpdated: false
 isNoComment: true
 isNoBackBtn: true
+head:
+  - - meta:
+    - name: google-site-verification
+      content: 3mPuiYC0wAVCBtDCme-qNp7JrpYrua8fPLZyFgVZA98
 ---
 
 <!-- 之所以将代码写在 md 里面，而非单独封装为 Vue 组件，因为 aside 不会动态刷新，参考 https://github.com/vuejs/vitepress/issues/2686 -->
@@ -15,7 +19,7 @@ isNoBackBtn: true
       class="header-anchor"
       :href="`#${post.title}`"
       :aria-label="`Permalink to &quot;${post.title}&quot;`"
-      >​</a
+      ></a
     >
     <div class="post-date hollow-text">{{ post.date.string }}</div>
   </h2>
