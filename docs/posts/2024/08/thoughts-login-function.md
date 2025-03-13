@@ -1,20 +1,21 @@
 ---
 layout: doc
 title: 登录功能的思考
-date: 2024-08-05
+date: 2023-08-05
 tags:
   - 编程
-  - 学习
+  - 想法
+  - Blog
 head:
   - - meta
     - name: keywords
       content: 登录 架构
 editLink: false
-lastUpdated: true
-
+lastUpdated: 2025-01-20T10:10:00
 ---
+# {{ $frontmatter.title }}
 
-> 文章摘要
+>  :black_nib: 文章摘要
 <!-- DESC SEP -->
 
 这篇文章介绍了如何安全地存储用户数据，包括用户名、密码哈希、邮箱等，强调使用 bcrypt 加密密码和唯一盐来提升安全性。它还详细解释了 HTTPS 如何通过加密、身份验证和数据完整性保护来确保通信安全，并探讨了前端加密与 HTTPS 的配合使用。此外，文章还讨论了如何管理 SSL/TLS 证书、Token 存储和安全性防护策略，如防止 XSS 和 CSRF 攻击。
@@ -115,7 +116,7 @@ lastUpdated: true
 8. 然后服务器将加密后的密文发送给客户端。
 9. 客户端收到服务器发送来的密文，用客户端密钥对其进行对称解密，得到服务器发送的数据。这样HTTPS中的第二个HTTP请求结束，整个HTTPS传输完成。
 
-![image-20240709145013421](/posts/2024/08/img-1.webp)
+![image-20240709145013421](../../../public/posts/2024/08/img-1.webp)
 
 它通过以下方式保证数据的安全性：
 

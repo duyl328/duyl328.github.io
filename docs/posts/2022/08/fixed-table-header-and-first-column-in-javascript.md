@@ -1,10 +1,14 @@
-﻿---
+---
 layout: doc
 title: JavaScript和Vue中实现表格(table)固定表头和首列
 date: 2022-08-26
 tags:
   - 编程
   - 学习
+  - Html
+  - JavaScript
+  - vue
+  - Blog
 head:
   - - meta
     - name: description
@@ -13,11 +17,12 @@ head:
     - name: keywords
       content: vue vue3 js javascript
 editLink: false
-lastUpdated: true
-
+lastUpdated: 2025-01-20T10:09:00
 ---
 
-> 文章摘要
+# {{ $frontmatter.title }}
+
+>  :black_nib: 文章摘要
 <!-- DESC SEP -->
 这篇文章介绍了如何在 JS 或 Vue 中实现表格的列和表头固定功能，适用于不同的开发环境（如原生
 JavaScript、Vue、React、小程序等）。文章详细展示了实现这一功能的思路和具体步骤，包括使用 Vue3 和 TypeScript 结合 Less
@@ -30,7 +35,7 @@ JavaScript、Vue、React、小程序等）。文章详细展示了实现这一�
 
 实际效果展示：
 
-![在这里插入图片描述](/posts/2022/08/img-1.gif)
+![在这里插入图片描述](../../../public/posts/2022/08/img-1.gif)
 
 ## 思路概述
 

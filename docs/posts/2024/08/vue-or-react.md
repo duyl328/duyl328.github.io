@@ -3,22 +3,25 @@ layout: doc
 title: Vue还是React?
 date: 2024-08-04
 tags:
-   - 编程
-   - 学习
-   - 思考
+  - 编程
+  - 思考
+  - vue
+  - React
+  - Blog
 head:
-   - - meta
-     - name: description
-       content: Vue和React、Nextjs如何选择
-   - - meta
-     - name: keywords
-       content: vue vue3 js javascript react ts typescript
+  - - meta
+    - name: description
+      content: 这篇文章探讨了 Vue、React 和 Next.js 之间的选择，并深入分析了 React 的一些优缺点。作者指出，虽然 Vue 在国内市场占据主导地位，React 在国外仍然保持强大的活力。但与此同时，React 面临不少批评，特别是其逐渐显现的技术债务和性能问题。文章引用了一些反对 React 的观点，强调 React 已显老化，且与其他框架相比，存在着难以兼容和过度依赖自定义模块的问题。同时，文章还提到其他框架如 Svelte 的优越性，认为它能提供类似 React 的功能，但更加简洁和高效。
+  - - meta
+    - name: keywords
+      content: vue vue3 js javascript react ts typescript
 editLink: false
-lastUpdated: true
-
+lastUpdated: 2025-01-20T10:09:34
 ---
+# {{ $frontmatter.title }}
 
-> 文章摘要
+
+>  :black_nib: 文章摘要
 
 <!-- DESC SEP -->
 
@@ -38,17 +41,17 @@ lastUpdated: true
 
 但和国内相悖的是，在`JetBrains`与`StackOverflow`在2023年的数据报告中，在前端方面数据，`Node`和`React`以压倒性优势领先其他语言
 
-![2023 JetBrains开发者调查报告](/posts/2024/08/10003/image-20240626141050935-1719382253511-9.png)
+![2023 JetBrains开发者调查报告](../../../public/posts/2024/08/10003/image-20240626141050935-1719382253511-9.png)
 
 
 
-![StackOverflow 2023调查报告](/posts/2024/08/10003/image-20240626141144499.png)
+![StackOverflow 2023调查报告](../../../public/posts/2024/08/10003/image-20240626141144499.png)
 
 
 
 2023JavaScript趋势报告：
 
-![image-20240626143412891](/posts/2024/08/10003/image-20240626143412891.png)
+![image-20240626143412891](../../../public/posts/2024/08/10003/image-20240626143412891.png)
 
 和国内不同的是，`React`在国外保持着惊人的活力
 
@@ -188,7 +191,7 @@ lastUpdated: true
 > - 如果我们要有一个统治框架，难道我们不希望它没有主见吗？所以 React 真的很好，因为它基本上只是一个带有最小状态管理解决方案的渲染库。有许多其他东西建立在 React 之上，这使得它与其他框架相当。所以即使你考虑元框架，也有很多流行的框架。
 > - 如果你了解 JavaScript，你几乎了解 React 的所有内容。他不会像Angular那样有很多新的“魔法”（这里指的是Angular引入的新的改变增加了学习成本，如管道，过滤器等）
 
-![image-20240627133055166](/posts/2024/08/10003/image-20240627133055166-1719466257222-11.png)
+![image-20240627133055166](../../../public/posts/2024/08/10003/image-20240627133055166-1719466257222-11.png)
 
 ##### 观点四：从公司架构思考问题
 

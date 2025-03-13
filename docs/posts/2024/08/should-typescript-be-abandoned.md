@@ -4,18 +4,23 @@ title: TypeScript 应该被放弃吗
 date: 2024-08-04
 tags:
   - 编程
-  - 学习
   - 思考
+  - TypeScript
+  - Blog
 head:
+  - - meta
+    - name: description
+      content: Turbo 8 放弃 TypeScript：作者认为 TypeScript 的类型检查反而增加了开发中的负担，并且声明类型复杂化代码，减少了开发效率。这个观点在 Reddit 和知乎引发了激烈讨论，部分评论指出 Turbo 8 并不具备广泛影响力，且作者习惯发表反向意见。TypeScript 的额外成本：第二篇文章提到，在某些场景下，TypeScript 的类型体操带来不必要的复杂度，尤其是对于小型项目，编写精确的类型定义可能比核心逻辑代码更为冗长。然而，TypeScript 相比于 JavaScript 在维护性和可扩展性上具有优势，尤其是对于框架和类库的开发者而言，尽管带来一些额外的维护成本。总体来看，放弃 TypeScript 的选择多见于小型或开源项目的维护者，而对于大多数开发者来说，TypeScript 提供的类型系统和可维护性仍然是更受欢迎的选择。
   - - meta
     - name: keywords
       content: vue vue3 js javascript react ts typescript
 editLink: false
-lastUpdated: true
-
+lastUpdated: 2025-01-20T10:09:34
 ---
 
-> 文章摘要
+# {{ $frontmatter.title }}
+
+>  :black_nib: 文章摘要
 
 <!-- DESC SEP -->
 
@@ -38,10 +43,10 @@ TypeScript 的额外成本：第二篇文章提到，在某些场景下，TypeSc
 抛出这个问题主要基于22年和23年发生的一些事件：
 
 
-![image-20240627143223214](/posts/2024/08/10003/up-58c4155f83bbd826f4bb0ec1ab8d1e32ccd-1719469395020-15-1719469397190-17.png)
+![image-20240627143223214](../../../public/posts/2024/08/10003/up-58c4155f83bbd826f4bb0ec1ab8d1e32ccd-1719469395020-15-1719469397190-17.png)
 
 
-![image-20240627143223214](/posts/2024/08/10003/eed5a2dd0f71b8b4790a1b20c708416c-1719469475131-21.png)
+![image-20240627143223214](../../../public/posts/2024/08/10003/eed5a2dd0f71b8b4790a1b20c708416c-1719469475131-21.png)
 
 并且Svelte 不是第一个放弃 TypeScript 的前端框架。早在 2020 年，Deno 就迁移了一部分內部 TypeScript 代码到 JavaScript，以减少构建时间。
 
@@ -67,13 +72,13 @@ TypeScript 的额外成本：第二篇文章提到，在某些场景下，TypeSc
 
 并且对于这篇文章，Reddit的评论区也是活力十足
 
-![image-20240627144850640](/posts/2024/08/10003/image-20240627144850640.png)
+![image-20240627144850640](../../../public/posts/2024/08/10003/image-20240627144850640.png)
 
 
 
 并且在知乎对于这个问题的评价更加激进：
 
-![image-20240627143223214](/posts/2024/08/10003/image-20240627143223214.png)
+![image-20240627143223214](../../../public/posts/2024/08/10003/image-20240627143223214.png)
 
 以下是文字版本：
 
