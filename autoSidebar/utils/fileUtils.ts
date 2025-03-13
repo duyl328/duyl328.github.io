@@ -75,8 +75,3 @@ export class FileUtils {
   }
   
 }
-//
-// // /home/runner/work/duyl328.github.io/duyl328.github.io/docs/notes/index.md
-// let fileName = FileUtils.getFileName("/home/runner/work/duyl328.github.io/duyl328.github.io/docs/notes/index.md")
-// // let fileName = FileUtils.getFileName("D:/duyl328/github.io/autoSidebar/utils/fileUtils.ts")
-// console.log(fileName);
