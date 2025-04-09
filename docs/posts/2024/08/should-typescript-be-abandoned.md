@@ -7,6 +7,7 @@ tags:
   - 思考
   - TypeScript
   - Blog
+  - 原创
 head:
   - - meta
     - name: description

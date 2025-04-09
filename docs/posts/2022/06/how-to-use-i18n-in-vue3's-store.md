@@ -11,6 +11,7 @@ tags:
   - i18n
   - BUG
   - Blog
+  - 原创
 head:
   - - meta
     - name: description

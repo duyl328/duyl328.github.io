@@ -9,6 +9,7 @@ tags:
   - JavaScript
   - vue
   - Blog
+  - 原创
 head:
   - - meta
     - name: description

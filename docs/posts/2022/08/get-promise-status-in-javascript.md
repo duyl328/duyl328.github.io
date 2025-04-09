@@ -7,6 +7,7 @@ tags:
   - 学习
   - JavaScript
   - Blog
+  - 原创
 head:
   - - meta
     - name: keywords

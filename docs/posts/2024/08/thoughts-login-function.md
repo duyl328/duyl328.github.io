@@ -6,6 +6,7 @@ tags:
   - 编程
   - 想法
   - Blog
+  - 原创
 head:
   - - meta
     - name: keywords
