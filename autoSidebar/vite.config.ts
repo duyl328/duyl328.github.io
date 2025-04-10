@@ -4,10 +4,10 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   build: {
     lib: {
-      // Could also be a dictionary or array of multiple entry points
+      // 也可以是多个入口点的字典或数组
       entry: resolve(__dirname, './index.ts'),
       name: 'autoSidebar',
-      // the proper extensions will be added
+      // 将添加适当的扩展
       fileName: 'autoSidebar',
     },
   },
