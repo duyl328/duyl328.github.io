@@ -55,13 +55,13 @@ TypeScript 的额外成本：第二篇文章提到，在某些场景下，TypeSc
 
 并且这些大牛放弃 TypeScript 似乎还加快了工作进度，但这个选择是否应该被普通开发者所选择？
 
-搜了很多文章，但是大部分都在将一些很正确的废话，目前来看只有下面两片有参考价值。
+搜了很多文章，但是大部分都在将一些很正确的废话，目前来看只有下面两篇有参考价值。
 
 ##### 第一篇：[Turbo 8 正在放弃 TypeScript (hey.com)](https://world.hey.com/dhh/turbo-8-is-dropping-typescript-70165c01)
 
 
 >
-> 这是原文，正式这篇文章，引来了众多讨论
+> 这是原文，正是这篇文章，引来了众多讨论
 
 文章的主要观点如下：
 
@@ -89,17 +89,17 @@ TypeScript 的额外成本：第二篇文章提到，在某些场景下，TypeSc
 >
 > 算法分析之父高德纳还在呢。
 >
-> WindowsNT内核之父David Cuttler也还在呢。
+> WindowsNT 内核之父 David Cuttler 也还在呢。
 >
-> Linux内核之父Linus还到处喷人呢。
+> Linux 内核之父 Linus 还到处喷人呢。
 >
-> GUI和面向对象之父Allen Kay也还在呢。
+> GUI 和面向对象之父 Allen Kay 也还在呢。
 >
-> Pascal总架构师，Delphi和C#之父，编程语言届的传奇**Anders Hejlsberg**也还在努力工作呢。
+> Pascal 总架构师，Delphi 和 C# 之父，编程语言届的传奇 **Anders Hejlsberg** 也还在努力工作呢。
 >
 > 我不明白某些在社区当网红的不入流货色是怎么敢被封为大牛还大放厥词的。
 >
-> 对了，TypeScript就是Anders搞的。
+> 对了，TypeScript 就是 Anders 搞的。
 
 
 
