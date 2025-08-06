@@ -38,19 +38,19 @@ lastUpdated: 2025-01-20T10:10:00
 
 > [中西文混排时汉字与拉丁字母之间是否要有空格？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/19587406/answer/12298128)
 
-Adobe InDesign、Microsoft Word 等对中文与西文（这里用「西文」来泛指用空格分词的外文）混合排版支持较好的软件，都默认增大汉字和西文的间距。InDesign 的默认设置是 1/4 的[全角空格](https://www.zhihu.com/search?q=全角空格&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={"sourceType"%3A"answer"%2C"sourceId"%3A12298128})宽度（遵从 JIS），也就是约等于一个半角空格。
+Adobe InDesign、Microsoft Word 等对中文与西文（这里用「西文」来泛指用空格分词的外文）混合排版支持较好的软件，都默认增大汉字和西文的间距。InDesign 的默认设置是 1/4 的全角空格宽度（遵从 JIS），也就是约等于一个半角空格。
 
-但大多数情况下我们没有这样专业[排版软件](https://www.zhihu.com/search?q=排版软件&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={"sourceType"%3A"answer"%2C"sourceId"%3A12298128})的支持，只能手动控制。这种时候，比较在意文字设计（typography，又译「字体排印」）的团队或个人往往都在操作系统界面或网站中的汉字和西文之间插入一个半角空格。
+但大多数情况下我们没有这样专业排版软件的支持，只能手动控制。这种时候，比较在意文字设计（typography，又译「字体排印」）的团队或个人往往都在操作系统界面或网站中的汉字和西文之间插入一个半角空格。
 
 包括许多的
 
 - 公司：苹果、微软、Google、Adobe……
-- 团队：Apple4us、Type is Beautiful、[爱范儿](https://www.zhihu.com/search?q=爱范儿&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={"sourceType"%3A"answer"%2C"sourceId"%3A12298128})……
+- 团队：Apple4us、Type is Beautiful、爱范儿……
 - 个人：@刘昕、@江疆……
 
-但这些确实是绝对的少数。大多数人都不/不喜欢/不愿意在汉字和[西文](https://www.zhihu.com/search?q=西文&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={"sourceType"%3A"answer"%2C"sourceId"%3A12298128})之间加空格。毕竟加空格要考虑的东西太多了，而且加空格也会带来一些问题（见后面给出的在 public-html-ig-zh@w3.org 进行的讨论）。
+但这些确实是绝对的少数。大多数人都不/不喜欢/不愿意在汉字和西文之间加空格。毕竟加空格要考虑的东西太多了，而且加空格也会带来一些问题（见后面给出的在 public-html-ig-zh@w3.org 进行的讨论）。
 
-总的来说，「[空格派](https://www.zhihu.com/search?q=空格派&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={"sourceType"%3A"answer"%2C"sourceId"%3A12298128})」的习惯就是在汉字和西文之间留一个半角空格。但因为在中西文关系上有一些让人不好决定的特例，他们使用空格的方式有一些变数。
+总的来说，「空格派」的习惯就是在汉字和西文之间留一个半角空格。但因为在中西文关系上有一些让人不好决定的特例，他们使用空格的方式有一些变数。
 
 根据一般都「加」空格到一般「不加」空格的顺序，大致可以排出来：
 
@@ -58,11 +58,11 @@ Adobe InDesign、Microsoft Word 等对中文与西文（这里用「西文」来
 - 独立的西文单词（iPhone）
 - 全大写字母的西文缩写（HTML）
 - 单个的西文字母（X）
-- [阿拉伯数字](https://www.zhihu.com/search?q=阿拉伯数字&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={"sourceType"%3A"answer"%2C"sourceId"%3A12298128})（7）和[西文标点](https://www.zhihu.com/search?q=西文标点&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={"sourceType"%3A"answer"%2C"sourceId"%3A12298128})（/）
+- 阿拉伯数字（7）和 西文标点（/）
 
 西文和汉字和标点三者相遇的时候问题更复杂（汗……「三体」），大家的习惯也有差异。
 
-\- - -
+---
 
 以上是现状，下面是个人观点：
 
@@ -78,11 +78,11 @@ Adobe InDesign、Microsoft Word 等对中文与西文（这里用「西文」来
 
 《中文 Web 阅读体验》：
 
-[http://www.livid.cn/doc_view.php?doc_id=5332](https://link.zhihu.com/?target=http%3A//www.livid.cn/doc_view.php%3Fdoc_id%3D5332)
+[http://www.livid.cn/doc_view.php?doc_id=5332](http://www.livid.cn/doc_view.php?doc_id=5332)
 
 （原站已关闭，这里是存档：
 
-[中文 Web 阅读体验](https://link.zhihu.com/?target=http%3A//web.archive.org/web/20110716090934/http%3A//www.livid.cn/doc_view.php%3Fdoc_id%3D5332)
+[中文 Web 阅读体验](https://web.archive.org/web/20110716090934/http://www.livid.cn/doc_view.php?doc_id=5332)
 
 ）
 
