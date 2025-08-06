@@ -68,9 +68,9 @@ Adobe InDesign、Microsoft Word 等对中文与西文（这里用「西文」来
 
 中文与西文混排时，不一定要有空格字符，但一定要有间距。
 
-使用专业排版软件时，交由软件处理间距问题（Adobe Creative Suite 把这个事归入「[标点挤压](https://www.zhihu.com/search?q=标点挤压&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={"sourceType"%3A"answer"%2C"sourceId"%3A12298128})」）；纯文本写作时，插入半角空格。具体在上面列出的那五种情况下合适加空格，何时不加，至今还没有什么共识。
+使用专业排版软件时，交由软件处理间距问题（Adobe Creative Suite 把这个事归入「标点挤压」）；纯文本写作时，插入半角空格。具体在上面列出的那五种情况下合适加空格，何时不加，至今还没有什么共识。
 
-关注文字设计的朋友其实可以编写自己的 Manual of Style，最终或许能在[百家争鸣](https://www.zhihu.com/search?q=百家争鸣&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={"sourceType"%3A"answer"%2C"sourceId"%3A12298128})中诞生中文互联网的一份事实标准。
+关注文字设计的朋友其实可以编写自己的 Manual of Style，最终或许能在百家争鸣中诞生中文互联网的一份事实标准。
 
 我的空格习惯基本上是受[@刘昕](https://www.zhihu.com/people/455b06074c9e37df07146f86294f6373)
 
@@ -88,7 +88,7 @@ Adobe InDesign、Microsoft Word 等对中文与西文（这里用「西文」来
 
 在看过这篇日志后，我意识到、并至今坚定维护着空格的必要性。刘昕在文中的这句话解释了基本的空格使用规则：
 
-> 中文正文及标题中出现的英文及数字应该使用[半角](https://www.zhihu.com/search?q=半角&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={"sourceType"%3A"answer"%2C"sourceId"%3A12298128})方式输入，并且在左右各留一个半角空格。如果这些这些半角英文及数字的左边或者右边紧接着任何的中文全角括号或者其他标点符号的话，则不需要加入半角空格。
+> 中文正文及标题中出现的英文及数字应该使用半角方式输入，并且在左右各留一个半角空格。如果这些这些半角英文及数字的左边或者右边紧接着任何的中文全角括号或者其他标点符号的话，则不需要加入半角空格。
 
 
 
